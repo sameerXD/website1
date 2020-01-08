@@ -1,0 +1,210 @@
+body{
+  margin: 0px;
+  text-align:center;
+  font-family: 'Merriweather', serif;
+}
+h1{
+  color:#f17362;
+  margin-top: 0px;
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+  margin-bottom: 10px;
+
+}
+hr{
+    border: dotted;
+    border-top: none;
+    border-width: 5px;
+    width: 5%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: #fae3d9;
+}
+a{
+  font-family: 'Montserrat', sans-serif;
+  color:#f17362;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color:#EAF6F6;
+}
+
+.head{
+  color:#f17362;
+  font-size: 2.5rem;
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+h2{
+  color:#f17362;
+  font-family: 'Montserrat', sans-serif;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color:#f17362;
+}
+div{
+
+  color:#f17362;
+}
+.top-container{
+  background-color: #fae3d9;
+}
+.p1{
+position: absolute;
+z-index: 999;
+margin: -150px auto;
+left: 0;
+right: 0;
+top: 45%; /* Adjust this value to move the positioned div up and down */
+text-align: center;
+width: 60%; /* Set the width of the positioned div */
+}
+.hello{
+  margin-top: 0px;
+  padding-top: 240px;
+  padding-left: 30px;
+
+}
+.intro{
+  padding-top: 30px;
+  color:#5d5b6a;
+  width: 30%;
+/* margin-left: auto; */
+  margin: 0px auto;
+  line-height: 20pt;
+}
+.skills{
+   padding-top: 10px;
+}
+.python{
+  margin-top: 50px;
+}
+.c{
+  margin-top: 50px;
+}
+.body{
+  color:#5d5b6a;
+  padding-top: 30px;
+
+  width: 30%;
+/* margin-left: auto; */
+  margin: 0px auto;
+  line-height: 20pt;
+}
+.img1{
+
+  width: 200px;
+  position: absolute;
+  display: inline-block;
+  padding-top: 50px;
+  z-index: 1000;
+  left:65%;
+  ;
+}
+
+.img2{
+  width: 200px;
+  position: absolute;
+  display: inline-block;
+  margin-top: 0px;
+  z-index: 999;
+  top: 30%;
+  right: 70%;
+
+}
+.img3{
+  background-color: #fae3d9;
+  width: 1000px;
+  position: relative;
+  display: inline-block;
+  padding-top: 100px;
+}
+.middle-container{
+  padding-top: 5%;
+
+}
+.img4{
+  width:30%;
+  position: absolute;
+  top: 850px;
+
+
+  left: 600px;
+  background-color: #fae3d9;
+  border-radius: 50%;
+}
+.img5{
+  width:20%;
+  margin-top: 60px;
+
+}
+.img6{
+  width:20%;
+  margin-top: 60px;
+}
+.img7{
+  width:30%;
+  margin-top: 40px;
+}
+.skill-row{
+
+}
+.bottom-container{
+  background-color: #ffb6b9;
+  margin-top: 0px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+
+.myButton {
+	-moz-box-shadow: 0px 10px 14px -7px #276873;
+	-webkit-box-shadow: 0px 10px 14px -7px #276873;
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #599bb3), color-stop(1, #408c99));
+	background:-moz-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-webkit-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-o-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-ms-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bb3', endColorstr='#408c99',GradientType=0);
+	background-color:#599bb3;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #408c99), color-stop(1, #599bb3));
+	background:-moz-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-webkit-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-o-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-ms-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#599bb3',GradientType=0);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.cr{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+}
